@@ -4,12 +4,13 @@
 }
 .nav-link:hover {
         color: #623d18;
-        font-weight: 600;
+        font-weight: 700;
 }
 
 .nav-link {
         color: brown !important;
         font-size: 15px;
+        font-weight: 300;
 }
 .nav-item {
         margin-right: 30px;
@@ -17,4 +18,7 @@
 .carousel-inner img {
         height: 100%;
         width: 100%;
+}
+.navbar {
+        background-color: white;
 }
