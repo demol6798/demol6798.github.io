@@ -1,0 +1,20 @@
+#active {
+        background-color: #251302;
+        color: white !important;
+}
+.nav-link:hover {
+        color: #623d18;
+        font-weight: 600;
+}
+
+.nav-link {
+        color: brown !important;
+        font-size: 15px;
+}
+.nav-item {
+        margin-right: 30px;
+}
+.carousel-inner img {
+        height: 100%;
+        width: 100%;
+}
