@@ -1,24 +1,21 @@
-#active {
-        background-color: #251302;
-        color: white !important;
+#fullpage {
+        background-image: url("../images/IMG_1483.JPG");
+        background-size: cover;
+        color: rgb(238, 237, 237);
+        text-align: center;
 }
-.nav-link:hover {
-        color: #623d18;
-        font-weight: 700;
+html.fp-enabled {
+        overflow: hidden !important;
 }
-
-.nav-link {
-        color: brown !important;
-        font-size: 15px;
-        font-weight: 300;
+#logo img {
+        position: fixed;
+        top: 1%;
+        left: 35%;
+        height: 30%;
+        width: 30%;
 }
-.nav-item {
-        margin-right: 30px;
-}
-.carousel-inner img {
-        height: 100%;
-        width: 100%;
-}
-.navbar {
-        background-color: white;
+#fp-nav ul li a span, .fp-slidesNav ul li a span {
+        background-color: white !important;
+        height: 15px !important;
+        width: 15px !important;
 }
