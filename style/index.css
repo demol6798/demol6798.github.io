@@ -1,7 +1,15 @@
-#fullpage {
+#page1 {
         background-image: url("../images/IMG_1483.JPG");
+}
+#about {
+        background-image: url("../images/ripe-coffee2.jpg");
+}
+#contacts {
+        background-image: url("../images/ripe-coffee.jpg");
+}
+.section {
         background-size: cover;
-        color: rgb(238, 237, 237);
+        color: whitesmoke;
         text-align: center;
 }
 html.fp-enabled {
@@ -18,4 +26,12 @@ html.fp-enabled {
         background-color: white !important;
         height: 15px !important;
         width: 15px !important;
+}
+h2, h3, h4, h5 {
+        font-weight: 700 !important;
+}
+.slide {
+        background-color: rgba(0,0,0,0.3); /* Black background with opacity */
+        z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+        cursor: pointer;
 }
