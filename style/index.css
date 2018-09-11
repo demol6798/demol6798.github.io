@@ -5,7 +5,7 @@
         background-image: url("../images/ripe-coffee2.jpg");
 }
 #contacts {
-        background-image: url("../images/ripe-coffee.jpg");
+        background-image: url("../images/unripeBeans.jpg");
 }
 .section {
         background-size: cover;
@@ -17,7 +17,7 @@ html.fp-enabled {
 }
 #logo img {
         position: fixed;
-        top: 1%;
+        top: -5%;
         left: 35%;
         height: 30%;
         width: 30%;
@@ -34,4 +34,9 @@ h2, h3, h4, h5 {
         background-color: rgba(0,0,0,0.3); /* Black background with opacity */
         z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
         cursor: pointer;
+}
+@media only screen and (max-width: 600px) {
+        h2, h3, h4, h5 {
+            font-size: 80% !important;
+        }
 }
