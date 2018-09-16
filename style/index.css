@@ -7,6 +7,21 @@
 #contacts {
         background-image: url("../images/unripeBeans.jpg");
 }
+#contact_info {
+        text-align: center;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-flex-flow: row wrap;
+        flex-flow: wrap;
+        justify-content: center;
+}
+.contact{
+        width: 200px;
+        margin: auto;
+}
 .section {
         background-size: cover;
         color: whitesmoke;
@@ -35,8 +50,11 @@ h2, h3, h4, h5 {
         z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
         cursor: pointer;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-height: 650px) {
         h2, h3, h4, h5 {
-            font-size: 80% !important;
+            font-size: 70% !important;
+        }
+        body {
+                line-height: 1 !important;
         }
 }
